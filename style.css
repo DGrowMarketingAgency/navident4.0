@@ -1161,7 +1161,184 @@ h2 {
   font-weight: 500;
   margin-top: 8px;
 }
+.cliniclove-section {
+  background: linear-gradient(180deg, #ffffff, #f1f5f9);
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #0f172a;
+}
 
+.cliniclove-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.cliniclove-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #0f172a;
+}
+
+.cliniclove-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cliniclove-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cliniclove-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.cliniclove-icon {
+  font-size: 1.6rem;
+  color: #059669; /* premium green tick */
+  flex-shrink: 0;
+}
+
+.cliniclove-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.cliniclove-text {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.5;
+}
+.naviindications-section {
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  padding: 90px 25px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+.naviindications-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.naviindications-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 70px;
+  color: var(--blue-color);
+}
+
+.naviindications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 40px;
+}
+
+.naviindications-col {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 35px 28px;
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.naviindications-col:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.naviindications-subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--blue-color);
+  border-left: 4px solid #f83842;
+  padding-left: 10px;
+}
+
+.naviindications-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.naviindications-list li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  padding-left: 28px;
+  position: relative;
+}
+
+.naviindications-list li::before {
+  content: "➤";
+  position: absolute;
+  left: 0;
+  color: #38bdf8;
+  font-size: 1rem;
+}
+.navident-revolution {
+  color: var(--light-color);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navident-revolution-container {
+  display: flex;
+  max-width: 1200px;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navident-revolution-img {
+  flex: 1;
+  min-width: 300px;
+}
+
+.navident-revolution-img img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+.navident-revolution-content {
+  flex: 1;
+  min-width: 350px;
+}
+
+.navident-revolution-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--blue-color);
+}
+
+.navident-revolution-content ul {
+  list-style: disc;
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.navident-revolution-content ul li {
+  margin-bottom: 12px;
+  color: var(--light-color);
+}
 @media screen and (max-width: 575px) {
   .s-5img {
     display: none;
