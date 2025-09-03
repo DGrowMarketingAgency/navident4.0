@@ -1120,8 +1120,8 @@ h2 {
 
 .navipremium-number {
   display: inline-block;
-  background: #fff;
-  color: var(--blue-color);
+  background: var(--blue-color);
+  color: var(--black-color);
   font-size: 1.4rem;
   font-weight: bold;
   border-radius: 50%;
