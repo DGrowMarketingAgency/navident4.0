@@ -355,13 +355,16 @@ h3 {
 }
 .sec2-box {
   width: 300px;
-  height: 250px;
+
   padding: 20px;
   color: var(--light-color);
   border-radius: 10px;
   /* border: 2px solid var(--light-color); */
   background-color: var(--bg-gray);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+.sec2-box-d {
+  height: 250px;
 }
 .sec2-box h3 {
   color: var(--blue-color);
@@ -1583,7 +1586,7 @@ h2 {
     width: 100%;
     margin: 30px auto;
   }
-  .sec2-box {
+  .sec2-box-d {
     height: 100%;
   }
 }
