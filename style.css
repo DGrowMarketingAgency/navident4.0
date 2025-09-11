@@ -1059,8 +1059,9 @@ h2 {
 .first-flow img {
   width: 80%;
 }
-.second-flow {
-  animation: navidentToggle 5s infinite;
+.second-flow,
+.fade-in {
+  animation: navidentToggle 3s infinite;
 }
 @keyframes navidentToggle {
   0%,
@@ -1085,7 +1086,7 @@ h2 {
   width: 60%;
 }
 .big-title {
-  font-size: 22px;
+  font-size: 34px;
   color: var(--blue-color);
 }
 .outer-box {
@@ -1595,6 +1596,9 @@ h2 {
   .section-new1 h4,
   .cliniclove-title {
     font-size: 36px;
+  }
+  .big-title {
+    font-size: 26px;
   }
 }
 .float-con {
