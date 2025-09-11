@@ -1600,6 +1600,9 @@ h2 {
   .big-title {
     font-size: 26px;
   }
+  .iframe-w {
+    width: 100%;
+  }
 }
 .float-con {
   width: 40px;
