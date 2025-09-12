@@ -1359,6 +1359,9 @@ h2 {
 }
 
 @media screen and (max-width: 575px) {
+  :root {
+    --blue-color: #c70303;
+  }
   .s-5img {
     display: none;
   }
